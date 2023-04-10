@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="utils\ImGui">
+      <UniqueIdentifier>{7b2270dc-69b7-4784-8db7-61f0ee3d462d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api">
+      <UniqueIdentifier>{623eae4e-7c85-4ae4-8dd0-12db757da694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api\http">
+      <UniqueIdentifier>{cbdceedd-b322-473b-996e-91893fa95e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api\base64">
+      <UniqueIdentifier>{cd1ef328-3c40-44aa-8634-3ff9df0e042e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>utils\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>utils\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>utils\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>utils\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>utils\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>utils\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>utils\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="font_awesome.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="http\utils.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>api\base64</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http.cpp">
+      <Filter>api\http</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>utils\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>utils\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>utils\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>utils\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>utils\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>utils\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>utils\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>utils\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="http\utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>api\base64</Filter>
+    </ClInclude>
+    <ClInclude Include="caesar.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="split.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http.h">
+      <Filter>api\http</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

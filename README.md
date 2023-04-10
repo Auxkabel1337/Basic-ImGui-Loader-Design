@@ -1,7 +1,7 @@
 # Basic ImGui Loader Design
 
 Basic "novoline wtf" ImGui Loader design, made by me in 3 days\
-There is a build in Base64 Util and Request Util
+There is a build-in ```Base64``` and ```Request``` Util
 
 Keep in mind this project was to learn stuff, its free to use as long u don't sell it.
 

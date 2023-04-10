@@ -9,5 +9,4 @@ Start Time: **04.08.2023**\
 End Time:  **04.11.2023**
 
 ![Login:](https://cdn.discordapp.com/attachments/1025110804120477798/1095128274633498694/image.png)
-![Main:](https://cdn.discordapp.com/attachments/1025110804120477798/1095128264902717610/image.png)
-![Main:](https://cdn.discordapp.com/attachments/1025110804120477798/1095128264902717610/image.png)
+![Main:](https://cdn.discordapp.com/attachments/1025110804120477798/1095128266798542938/image.png)

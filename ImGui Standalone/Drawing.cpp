@@ -1,34 +1,19 @@
 #include "Drawing.h"
 #include <string>
 #include <stdio.h>
-#include <string>
 #include <iostream>
 #include <fstream>
 #include <windows.h>
 #include <time.h>
-#include <string>
-#include <iostream>
-#include <Windows.h>
 #include <TlHelp32.h>
 #include <random>
 #include <csignal>
-#include <fstream>
-#include <iostream>
-#include <sstream> 
-#include <iostream>
-#include <random>
-#include <string>
-#include <fstream>
 #include <sstream>
 #include <strsafe.h>
 #include "font_awesome.cpp"
 #include <chrono>
 #include <ctime>
-#include <iostream>
-#include <string>
 #include <iomanip>
-#include <iostream>
-#include <fstream>
 #pragma comment(lib, "urlmon.lib")
 
 using namespace std;
